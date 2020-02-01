@@ -14,6 +14,7 @@ public class ApplicationRunner {
 
         Square square1 = new Square();
         square1.setSide(10.0);
+//        square1.setName("Square");
 
         System.out.println("Square with side " + square1.getSide() + " has area " + square1.getArea());
 
