@@ -24,9 +24,9 @@ public class ApplicationRunner {
 
         Triangle triangle1 = new Triangle();
         triangle1.setBase(10);
-        triangle1.setSide(12);
+        triangle1.setHeight(12);
 
-        System.out.println("Triangle with base " + triangle1.getBase() + " and side " + triangle1.getSide() +
+        System.out.println("Triangle with base " + triangle1.getBase() + " and height " + triangle1.getHeight() +
                 " has area " + triangle1.getArea());
 
 
