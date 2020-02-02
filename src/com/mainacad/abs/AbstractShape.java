@@ -1,8 +1,6 @@
 package com.mainacad.abs;
 
-public abstract class AbstractShape {
-
-    public abstract double getArea();
+public abstract class AbstractShape implements Shape{
 
    /* private String name;
 
