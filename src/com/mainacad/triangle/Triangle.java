@@ -28,4 +28,26 @@ public class Triangle extends AbstractShape {
 
         return (height*base)/2;
     }
+
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
+
+    public Triangle() {
+    }
+
+//    @Override
+//    public int hashCode() {
+//        return (int)(base*height);
+//    }
+//
+//    @Override
+//    public boolean equals(Object obj) {
+//        Triangle triangle = (Triangle) obj;
+//        return triangle.height == this.height &&
+//                triangle.base == this.base;
+//    }
+
+
 }
